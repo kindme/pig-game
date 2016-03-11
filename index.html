@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<section class="scores">
+	<ul>
+		<li id="player">
+			<sub>Player</sub>
+			<span id="score-player">0</span>
+		</li>
+		<li id="computer">
+			<span id="score-computer">0</span>
+			<sub>Computer</sub>
+		</li>
+	</ul>
+	<div class="current">
+		<div id="score-current">0</div>
+		<sub>Current</sub>
+	</div>
+</section>
+<section class="dices">
+	<div class="dices-centered">
+		<div class="cube-container one">
+			<div id="cube-one" class="cube">
+				<figure class="front"></figure>
+				<figure class="back"></figure>
+				<figure class="right"></figure>
+				<figure class="left"></figure>
+				<figure class="top"></figure>
+				<figure class="bottom"></figure>
+			</div>
+		</div>
+		<div class="cube-container two">
+			<div id="cube-two" class="cube">
+				<figure class="front"></figure>
+				<figure class="back"></figure>
+				<figure class="right"></figure>
+				<figure class="left"></figure>
+				<figure class="top"></figure>
+				<figure class="bottom"></figure>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="controls">
+	<div class="cont">
+		<label for="points-to-stop">Computer points to stop:</label>
+		<input type="number" id="points-to-stop" value="" />
+	</div>
+	<ul>
+		<li><button href="#" class="btn green" id="btn-roll">Roll</button></li>
+		<li><button href="#" class="btn orange" id="btn-stop">Stop</button></li>
+		<li><button href="#" class="btn reset blue" id="btn-reset">Reset game</button></li>
+	</ul>
+</section>
+
+<script src="js/js.js"></script>
+
+</body>
+
+</html>
